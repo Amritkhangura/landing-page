@@ -13,8 +13,11 @@ flex-direction: column;
 
 .flex-header {
   background-color: blue;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  font-size: 20px;
+  align-content: center;
 }
 
 .first-column {
@@ -41,4 +44,27 @@ padding-top: 3rem;
   background-color: lightcoral;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.link-one {
+  margin-left: auto;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.link-two {
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.link-three {
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-logo {
+  font-size: 27px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
 }
