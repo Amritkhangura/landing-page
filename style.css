@@ -32,7 +32,14 @@ flex-direction: column;
 
 .random-info {
 background-color: #c50d66;
-padding-top: 3rem;
+padding: 2rem;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: space-around;
+height: 250px;
+
 }
 
 .quote {
@@ -91,4 +98,54 @@ padding-top: 3rem;
   border: 2px solid black;
   width: 500px;
   height: 200px;
+}
+.info {
+  width: 1100px;
+  text-align: center;
+  font-size: 27px;
+}
+.image-one {
+  border: 2px solid black;
+  width: 250px;
+  height: 150px;
+}
+.image-two {
+  border: 2px solid black;
+  width: 250px;
+  height: 150px;
+}
+.image-three {
+  border: 2px solid black;
+  width: 250px;
+  height: 150px;
+}
+.image-four {
+  border: 2px solid black;
+  width: 250px;
+  height: 150px;
+}
+.textbox-1 {
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.textbox-2 {
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.textbox-3 {
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.textbox-4 {
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+
 }
