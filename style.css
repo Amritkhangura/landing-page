@@ -1,7 +1,6 @@
 * {
   margin: 2px;
 }
-
 body {
 font-size: 24px;
 color: white;
@@ -17,6 +16,7 @@ flex-direction: column;
   display: flex;
   font-size: 20px;
   align-content: center;
+
 }
 
 .first-column {
@@ -58,9 +58,11 @@ height: 100px;
 display: flex;
 justify-content: center;
 flex-direction: column;
-padding: 30px;
-margin: 80px;
-border-radius: 10px
+flex-wrap: wrap;
+padding: 40px;
+margin: 6rem;
+border-radius: 10px;
+justify-content: baseline;
 
 }
 
@@ -68,6 +70,9 @@ border-radius: 10px
   background-color: lightcoral;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-align: center;
+  font-size: 15px;
+
 }
 
 .link-one {
@@ -162,4 +167,21 @@ border-radius: 10px
 }
 .button-2 {
   width: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+
+}
+.title {
+  padding-top: 5px;
+  width: 300px;
+  margin: 3px;
+  font-size: 27px;
+}
+.title-2 {
+  width: 500px;
+  margin: 5px;
+  font-size: 20px;
+  padding-top: 7px;
 }
