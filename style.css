@@ -50,18 +50,24 @@ display: flex;
 height: 75px;
 font-style: italic;
 font-weight: lighter;
-
 }
 
 .call-to-action {
-background-color: lightblue;
-padding-top: 3rem;
+background-color: blue;
+height: 100px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 30px;
+margin: 80px;
+border-radius: 10px
+
 }
 
 .flex-footer {
   background-color: lightcoral;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .link-one {
@@ -153,4 +159,7 @@ padding-top: 3rem;
   height: 100px;
   text-align: center;
   font-size: 20px;
+}
+.button-2 {
+  width: 100px;
 }
