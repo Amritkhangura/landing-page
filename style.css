@@ -1,5 +1,5 @@
 * {
-  margin: 2px;
+  margin: 0px;
 }
 body {
 font-size: 24px;
@@ -10,17 +10,18 @@ flex-direction: column;
 }
 
 .flex-header {
-  background-color: blue;
+  background-color: #38598b;
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: flex;
   font-size: 20px;
   align-content: center;
+  margin-bottom: 2px;
 
 }
 
 .first-column {
-  background-color: orange;
+  background-color: #38598b;
   padding: 3rem;
   display: flex;
   flex-wrap: wrap;
@@ -31,7 +32,7 @@ flex-direction: column;
 }
 
 .random-info {
-background-color: #c50d66;
+background-color: #a2a8d3;
 padding: 2rem;
 display: flex;
 flex-direction: row;
@@ -43,17 +44,18 @@ height: 250px;
 }
 
 .quote {
-background-color: blueviolet;
+background-color: #e7eaf6;
 padding: 4rem;
 text-align: center;
 display: flex;
 height: 75px;
 font-style: italic;
 font-weight: lighter;
+color: #113f67;
 }
 
 .call-to-action {
-background-color: blue;
+background-color: #a7bcb9;
 height: 100px;
 display: flex;
 justify-content: center;
@@ -67,7 +69,7 @@ justify-content: baseline;
 }
 
 .flex-footer {
-  background-color: lightcoral;
+  background-color: #5c5470;
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
@@ -110,6 +112,10 @@ justify-content: baseline;
 .button-1 {
   width: 100px;
   margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: #38598b;
+  color: white;
 }
 .image-1 {
   border: 2px solid black;
@@ -120,6 +126,7 @@ justify-content: baseline;
   width: 1100px;
   text-align: center;
   font-size: 27px;
+  padding-bottom: 3px;
 }
 .image-one {
   border: 2px solid black;
@@ -169,7 +176,7 @@ justify-content: baseline;
   width: 100px;
   border: 2px solid white;
   border-radius: 10px;
-  background-color: blue;
+  background-color: #a7bcb9;
   color: white;
 
 }
